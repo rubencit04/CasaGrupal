@@ -6,18 +6,18 @@ public class MainCasa {
 
 	public static void main(String[] args) {
 		System.out.println("-----Casa-----");
-		Casa c1 = new Casa(new Direccion("Calle", "Shiny","Kanto" , 25369), 500000, true, 125, new Jardin(30, 2), new ArrayList<Habitacion>());
-		Casa c2 = new Casa(new Direccion("Avenida", "Ultraente","Alola" , 30029), 204303, false, 300, new Jardin(50, 500), new ArrayList<Habitacion>());
+		Casa c1 = new Casa(new Direccion(), 500000, true, 125, new Jardin(), new ArrayList<Habitacion>());
+		Casa c2 = new Casa(new Direccion(), 2000000, false, 247, new Jardin(), new ArrayList<Habitacion>());
+
+		Habitacion h1 = new Habitacion();
+		Habitacion h2 = new Habitacion();
 		
-		//Métodos
+
+		
+		
+		
 		c1.calcularMetrosCuadrados();
 		c2.calcularMetrosCuadrados();
-		
-		c1.esUnChalet();
-		c2.esUnChalet();
-		
-		c1.precioCasaConIVA();
-		c2.precioCasaConIVA();
 	}
 
 }
