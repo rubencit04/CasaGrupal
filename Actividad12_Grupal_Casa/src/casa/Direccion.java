@@ -34,6 +34,20 @@ public class Direccion {
 		return "Direccion [tipoVia=" + tipoVia + ", nombreVia=" + nombreVia + ", localidad=" + localidad
 				+ ", codigoPostal=" + codigoPostal + "]";
 	}
+	public Direccion(String tipoVia, String nombreVia, String localidad, int codigoPostal) {
+		super();
+		this.tipoVia = tipoVia;
+		this.nombreVia = nombreVia;
+		this.localidad = localidad;
+		this.codigoPostal = codigoPostal;
+	}
+	public Direccion() {
+		super();
+	}
+	
+	
+	
+	
 	
 	
 }

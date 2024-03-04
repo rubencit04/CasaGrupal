@@ -10,6 +10,27 @@ public class Casa {
 	private Jardin jardin;
 	private ArrayList<Habitacion> listaHabitaciones;
 	
+	
+	
+	public Casa(Direccion direccion, double precio, boolean esSegundaMano, double metrosCuadrados, Jardin jardin,
+			ArrayList<Habitacion> listaHabitaciones) {
+		super();
+		this.direccion = direccion;
+		this.precio = precio;
+		this.esSegundaMano = esSegundaMano;
+		this.metrosCuadrados = metrosCuadrados;
+		this.jardin = jardin;
+		this.listaHabitaciones = listaHabitaciones;
+	}
+	
+	
+
+	public Casa() {
+		super();
+	}
+
+
+
 	// TOSTRING
 	@Override
 	public String toString() {

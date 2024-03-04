@@ -4,6 +4,21 @@ public class Jardin {
 	
 	private double metrosCuadrados;
 	private double numeroPlantas;
+	
+	
+	
+	public Jardin(double metrosCuadrados, double numeroPlantas) {
+		super();
+		this.metrosCuadrados = metrosCuadrados;
+		this.numeroPlantas = numeroPlantas;
+	}
+	
+	
+	public Jardin() {
+		super();
+	}
+
+
 	public double getMetrosCuadrados() {
 		return metrosCuadrados;
 	}

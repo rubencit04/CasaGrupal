@@ -5,6 +5,23 @@ public class Habitacion {
 	private double metrosCuadrados;
 	private TipoHabitacion tipo;
 	
+	
+	
+	public Habitacion(String nombre, double metrosCuadrados, TipoHabitacion tipo) {
+		super();
+		this.nombre = nombre;
+		this.metrosCuadrados = metrosCuadrados;
+		this.tipo = tipo;
+	}
+	
+	
+
+	public Habitacion() {
+		super();
+	}
+
+
+
 	// TO STRING
 	@Override
 	public String toString() {
