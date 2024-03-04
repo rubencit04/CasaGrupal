@@ -67,7 +67,14 @@ public class Casa {
 		this.listaHabitaciones = listaHabitaciones;
 	}
 	
-	
+	public void calcularMetrosCuadrados () {
+		double sumadorMetros = 0;
+		for (Habitacion s : listaHabitaciones) {
+			sumadorMetros = sumadorMetros + s.getMetrosCuadrados();
+		}
+		double sumaTotalMetros = this.metrosCuadrados + this.jardin.getMetrosCuadrados() + sumadorMetros;
+		System.out.println("Los metros cuadrados de la casa son : " + sumaTotalMetros);
+	}
 	
 	
 
