@@ -1,5 +1,5 @@
 package casa;
 
-public class TipoHabitacion {
-
+public enum TipoHabitacion {
+ SALON, COCINA, BAÑO, SALA_DE_ESTAR;
 }
