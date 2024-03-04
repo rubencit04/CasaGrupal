@@ -19,12 +19,6 @@ public class MainCasa {
 		//Métodos
 		c1.calcularMetrosCuadrados();
 		c2.calcularMetrosCuadrados();
-		
-		c1.esUnChalet();
-		c2.esUnChalet();
-		
-		c1.precioCasaConIVA();
-		c2.precioCasaConIVA();
 	}
 
 }
