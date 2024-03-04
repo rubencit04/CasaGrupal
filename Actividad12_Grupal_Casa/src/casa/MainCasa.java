@@ -17,6 +17,12 @@ public class MainCasa {
 		listaHabitacion1.add(habitacion1);
 		listaHabitacion1.add(habitacion2);
 		
+		Habitacion habitacion3 = new Habitacion("8", 36, TipoHabitacion.COCINA);
+		Habitacion habitacion4 = new Habitacion("machoke", 78, TipoHabitacion.SALON);
+		listaHabitacion2.add(habitacion3);
+		listaHabitacion2.add(habitacion4);
+		
+		
 		//Métodos
 		c1.calcularMetrosCuadrados();
 		c2.calcularMetrosCuadrados();
@@ -25,7 +31,7 @@ public class MainCasa {
 		c2.esUnChalet();
 		
 		c1.precioCasaConIVA();
-		c2.precioCasaConIVA();
+		c2.precioCasaConIVA(); 
 	}
 
 }
