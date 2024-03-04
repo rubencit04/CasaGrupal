@@ -15,6 +15,7 @@ public class MainCasa {
 		Habitacion habitacion2 = new Habitacion("Salon grande", 100, TipoHabitacion.SALA_DE_ESTAR);
 		listaHabitacion1.add(habitacion1);
 		listaHabitacion1.add(habitacion2);
+		//a
 		
 		//Métodos
 		c1.calcularMetrosCuadrados();
