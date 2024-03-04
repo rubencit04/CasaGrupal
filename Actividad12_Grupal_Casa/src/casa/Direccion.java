@@ -5,6 +5,10 @@ public class Direccion {
 	String nombreVia;
 	String localidad;
 	int codigoPostal;
+	
+	
+	
+	
 	public String getTipoVia() {
 		return tipoVia;
 	}
@@ -29,6 +33,9 @@ public class Direccion {
 	public void setCodigoPostal(int codigoPostal) {
 		this.codigoPostal = codigoPostal;
 	}
+	
+	// TO STRING 
+	
 	@Override
 	public String toString() {
 		return "Direccion [tipoVia=" + tipoVia + ", nombreVia=" + nombreVia + ", localidad=" + localidad
