@@ -10,7 +10,7 @@ public class MainCasa {
 		 ArrayList<Habitacion> listaHabitacion1 = new ArrayList<>();
 		 ArrayList<Habitacion> listaHabitacion2 = new ArrayList<>();
 		Casa c1 = new Casa(new Direccion("Calle", "Shiny","Kanto" , 25369), 500000, true, 125, new Jardin(30, 2), listaHabitacion1);
-		Casa c2 = new Casa(new Direccion("Avenida", "Ultraente","Alola" , 30029), 204303, false, 300, new Jardin(50, 500), listaHabitacion2);
+		Casa c2 = new Casa(new Direccion("Avenida", "Ultraente","Alola" , 30029), 204303, false, 300, null, listaHabitacion2);
 		
 		Habitacion habitacion1 = new Habitacion("2", 45, TipoHabitacion.BAÑO);
 		Habitacion habitacion2 = new Habitacion("Salon grande", 100, TipoHabitacion.SALA_DE_ESTAR);

@@ -85,12 +85,23 @@ public class Casa {
 	}
 	
 	public void calcularMetrosCuadrados () {
+		if (jardin != null) {
 		double sumadorMetros = 0;
 		for (Habitacion s : listaHabitaciones) {
 			sumadorMetros = sumadorMetros + s.getMetrosCuadrados();
 		}
 		double sumaTotalMetros = this.metrosCuadrados + this.jardin.getMetrosCuadrados() + sumadorMetros;
 		System.out.println("Los metros cuadrados de la casa son : " + sumaTotalMetros);
+		}else {
+			double sumadorMetros = 0;
+			for (Habitacion s : listaHabitaciones) {
+				
+				sumadorMetros = sumadorMetros + s.getMetrosCuadrados();
+			}
+			double sumaTotalMetros = this.metrosCuadrados  + sumadorMetros;
+			System.out.println("Los metros cuadrados de la casa son : " + sumaTotalMetros);
+			
+		}
 	}
 	public void esUnChalet() {
 		if (this.jardin != null) {
