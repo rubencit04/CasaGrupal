@@ -75,6 +75,22 @@ public class Casa {
 		double sumaTotalMetros = this.metrosCuadrados + this.jardin.getMetrosCuadrados() + sumadorMetros;
 		System.out.println("Los metros cuadrados de la casa son : " + sumaTotalMetros);
 	}
+	public void esUnChalet() {
+		if (this.jardin != null) {
+			System.out.println("La casa es un chalet");
+		}else {
+			System.out.println("La casa no es un chalet");
+		}
+	}
+	public void precioCasaConIVA() {
+		if (this.esSegundaMano == true) {
+			this.precio = this.precio * 1.05;
+			System.out.println("El precio de la casa de segunda mano con IVA sera : " + this.precio);
+		}else {
+			this.precio = this.precio * 1.10;
+			System.out.println("El precio de la casa nueva con IVA sera : " + this.precio);
+		}
+	}
 	
 	
 
